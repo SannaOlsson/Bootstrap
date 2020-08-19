@@ -1,0 +1,63 @@
+html,
+body,
+#intro {
+  height: 100%;
+  font-family: lato;
+}
+#intro-landingpage {
+  background-image: url("bild.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  -o-background-size: cover;
+  height: 100%;
+  color: white;
+  padding-top: 5%;
+}
+#content {
+  text-align: center;
+  margin-top: 30%;
+  height: 100%;
+}
+#intro-secondpage {
+  background-image: url("bild4.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+#intro-thirdpage {
+  background-image: url(bild3.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+#intro-fourthpage {
+  background-image: url(bild2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  color: white;
+}
+#intro-underpage1 {
+  background-image: url(bild4.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+#intro-underpage1 {
+  background-image: url(bild4.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

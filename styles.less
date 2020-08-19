@@ -1,0 +1,89 @@
+@-webkit-background-size: cover;
+@background-size: cover;
+@-o-background-size: cover;
+@background-position: center;
+@height: 100%;
+@color: white;
+@padding-top: 5%;
+@background-image-intro-landingpage: url("bild.jpg");
+@font-family: lato;
+@text-align: center;
+@margin-top: 30%;
+@-moz-background-size: cover;
+@background-image-intro-secondpage: url("bild4.jpg");
+@background-image-intro-thirdpage: url(bild3.jpg);
+@background-image-intro-fourthpage: url(bild2.jpg);
+@background-image-intro-underpage1: url(bild4.jpg);
+@background-image-intro-underpage2: url(bild4.jpg);
+
+
+html, body, #intro{
+	height: @height;
+	font-family: @font-family;
+}
+
+
+#intro-landingpage{
+	background-image: @background-image-intro-landingpage;
+	-webkit-background-size: @-webkit-background-size; 
+	background-size: @background-size;
+	background-position: @background-position;
+	-o-background-size: @-o-background-size;
+	height: @height;
+	color: @color;
+	padding-top: @padding-top;
+	
+}
+
+#content{
+	text-align: @text-align;
+	margin-top: @margin-top;
+	height: @height;
+
+}
+
+#intro-secondpage{
+	background-image: @background-image-intro-secondpage;
+	-webkit-background-size: @-webkit-background-size;
+	-moz-background-size: @-moz-background-size;
+	-o-background-size: @-o-background-size;
+	background-size: @background-size;
+	height: @height;
+}
+
+#intro-thirdpage{
+	background-image: url(bild3.jpg);
+	-webkit-background-size: @-webkit-background-size;
+	-moz-background-size: @-moz-background-size;
+	-o-background-size: @-o-background-size;
+	background-size: @background-size;
+	height: @height;
+}
+
+#intro-fourthpage{
+	background-image: url(bild2.jpg);
+	-webkit-background-size: @-webkit-background-size;
+	-moz-background-size: @-moz-background-size;
+	-o-background-size: @-o-background-size;
+	background-size: @background-size;
+	height: @height;
+	color: @color;
+}
+
+#intro-underpage1{
+	background-image: @background-image-intro-underpage1;
+	-webkit-background-size: @-webkit-background-size;
+	-moz-background-size: @-moz-background-size;
+	-o-background-size: @-o-background-size;
+	background-size: @background-size;
+	height: @height;
+}
+
+#intro-underpage1{
+	background-image: @background-image-intro-underpage2;
+	-webkit-background-size: @-webkit-background-size;
+	-moz-background-size: @-moz-background-size;
+	-o-background-size: @-o-background-size;
+	background-size: @background-size;
+	height: @height;
+}
